@@ -52,9 +52,10 @@ From the project root:
     python scraper/main.py
 
 ## This will:
-    1. Start scraping all pages
-    2.  Print progress in the terminal
-    3.  Generate a file named books.csv in the project root
+
+    1.Start scraping all pages
+    2.Print progress in the terminal
+    3.Generate a file named books.csv in the project root
 
 ## 🧪 Output Example (books.csv)
 
@@ -65,28 +66,20 @@ From the project root:
 
 ## ⚙️ How It Works
 
-Requests the first page in /catalogue
-
-Finds the Next button on each page
-
-Automatically moves to the next page until none exists
-
-Parses the HTML using BeautifulSoup
-
-Collects book information and stores it in a list
-
-Writes all results to a CSV file
+- Requests the first page in /catalogue
+- Finds the Next button on each page
+- Automatically moves to the next page until none exists
+- Parses the HTML using BeautifulSoup
+- Collects book information and stores it in a list
+- Writes all results to a CSV file
 
 
 ## 🧩 Technologies Used
 
-Python 3
-
-requests
-
-beautifulsoup4
-
-CSV module
+- Python 3
+- requests
+- beautifulsoup4
+- CSV module
 
 ## 🤝 Contributing
 
