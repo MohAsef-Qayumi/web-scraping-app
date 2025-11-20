@@ -48,24 +48,20 @@ books_scraper/
 ## ▶️ Running the Scraper
 
 From the project root:
-```bash
-python scraper/main.py
-    
+    ```bash
+    python scraper/main.py
 
 ## This will:
-
     1. Start scraping all pages
-
     2.  Print progress in the terminal
-
     3.  Generate a file named books.csv in the project root
 
 ## 🧪 Output Example (books.csv)
-```bash 
-title,price,availability
-"A Light in the Attic","£51.77","In stock"
-"Tipping the Velvet","£53.74","In stock"
-...
+
+    title,price,availability
+    "A Light in the Attic","£51.77","In stock"
+    "Tipping the Velvet","£53.74","In stock"
+    
 
 ## ⚙️ How It Works
 
